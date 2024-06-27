@@ -57,7 +57,7 @@ header{
     font-size: 1.8rem;
     cursor: pointer;
 }
-/*Cart */
+/*Carrin */
 .cart{
     position: fixed;
     top: 0;
@@ -230,4 +230,80 @@ header{
         width: 280px;
     }
 }
+/* Footer */
+.footer {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    clear: both;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.footer-section-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--main-color);
+}
+
+.footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links li a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: var(--main-color);
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.contact-info li i {
+    font-size: 1.2rem;
+    margin-right: 8px;
+    color: var(--main-color);
+}
+
 
